@@ -1,7 +1,7 @@
 {
     "$schema": "https://getcomposer.org/schema.json",
-    "name": "helonyxe/laravel-boilerplate",
-    "type": "project",
+    "name": "jovence/laravel-boilerplate",
+    "type": "library",
     "description": "A Laravel 12 boilerplate ready to use",
     "keywords": [
         "laravel",
