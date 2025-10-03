@@ -7,13 +7,13 @@ Get your Laravel project up and running **in seconds** with all essentials pre-c
 
 ## 🛠 Features
 
-- ✅ Laravel 12 ready
-- ✅ Pre-configured `.env` and app key generation
-- ✅ Automatic database migration & seeding
-- ✅ Storage linking & vendor publishing
-- ✅ Dev packages: Pest, Pail, Pint, Faker, Collision, Mockery
-- ✅ Ready-to-use API response trait
-- ✅ Developer-friendly scripts for **fast setup**
+-   ✅ Laravel 12 ready
+-   ✅ Pre-configured `.env` and app key generation
+-   ✅ Automatic database migration & seeding
+-   ✅ Storage linking & vendor publishing
+-   ✅ Dev packages: Pest, Pail, Pint, Faker, Collision, Mockery
+-   ✅ Ready-to-use API response trait
+-   ✅ Developer-friendly scripts for **fast setup**
 
 ---
 
@@ -22,12 +22,5 @@ Get your Laravel project up and running **in seconds** with all essentials pre-c
 ### **1. Using a private repository**
 
 ```bash
-composer create-project git@github.com:jovence/laravel-boilerplate.git my-app
-
-```
-or via HTTPS:
-
-```bash
-composer create-project https://github.com/jovence/laravel-boilerplate.git my-app
-
+composer create-project jovence/laravel-boilerplate my-app --stability=dev
 ```
