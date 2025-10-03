@@ -23,7 +23,9 @@ Get your Laravel project up and running **in seconds** with all essentials pre-c
 
 ```bash
 composer create-project git@github.com:helonyxe/laravel-boilerplate.git my-app
-
+```
 or via HTTPS:
 
+```bash
 composer create-project https://github.com/helonyxe/laravel-boilerplate.git my-app
+```
