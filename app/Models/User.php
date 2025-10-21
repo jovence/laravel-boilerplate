@@ -15,9 +15,9 @@ class User extends Authenticatable
     use HasFactory, Notifiable;
     use SoftDeletes, HasUuidAndFilters;
 
-    protected $keyType = 'string';
-    public $incrementing = false;
+    protected $keyType = 'int';
+    public $incrementing = true;
     public $timestamps = true;
 
-    protected $fillable = ['name', 'email', 'password'];
+    protected $fillable = ['uuid','name', 'email', 'password'];
 }

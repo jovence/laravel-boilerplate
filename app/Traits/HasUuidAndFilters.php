@@ -9,15 +9,15 @@ trait HasUuidAndFilters
     protected static function bootHasUuidAndFilters()
     {
         static::creating(function ($model) {
-            if (empty($model->{$model->getKeyName()})) {
-                $model->{$model->getKeyName()} = (string) Str::uuid();
+            if (empty($model->uuid)) {
+                $model->uuid = (string) Str::uuid();
             }
         });
     }
 
     public static function findOrFailUuid(string $uuid)
     {
-        return static::where('id', $uuid)->firstOrFail();
+        return static::where('uuid', $uuid)->firstOrFail();
     }
 
     public function scopeFilter($query, array $filters = [])
